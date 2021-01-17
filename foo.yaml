@@ -1,0 +1,12 @@
+#書き方
+#キー：バリュー
+
+name: foo
+
+obj:
+  name: bar
+
+array: -elem1
+  -123
+  -true
+  -null
