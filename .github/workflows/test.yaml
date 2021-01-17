@@ -8,6 +8,6 @@ jobs:
    test_project:
        runs-on: ubuntu-latest
        steps:
-           - name: print pwb
+           - name: print pwd
            run: pwd
 
