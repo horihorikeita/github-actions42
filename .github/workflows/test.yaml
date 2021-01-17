@@ -2,7 +2,7 @@
 name: function-testing
 
 #実行タイミング
-on: push
+on: [push, pull_request]
 
 jobs:
   test_project:
