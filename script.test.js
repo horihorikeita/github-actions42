@@ -14,5 +14,9 @@ describe("add2のテスト", () => {
         expect(add2('こんにちは')).toEqual(null);
     });
 
+    test('失敗するテスト', () => {
+        expect(2).toEqual(1);
+    });
+
 });
 
