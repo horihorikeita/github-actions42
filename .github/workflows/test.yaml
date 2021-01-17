@@ -5,9 +5,8 @@ name: function-testing
 on: push
 
 jobs:
-   test_project:
-       runs-on: ubuntu-latest
-       steps:
-           - name: print pwd
-           run: pwd
-
+  test_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print pwd
+        run: pwd
