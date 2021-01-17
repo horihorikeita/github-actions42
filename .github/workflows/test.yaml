@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: print pwd
         run: pwd
-      - users: actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: run unit test
         run: |
           yarn install
